@@ -1,0 +1,31 @@
+[project]
+name = "fastapi-casbin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bcrypt==3.2.0",
+    "casbin==1.43.0",
+    "casbin-sqlalchemy-adapter==1.4.0",
+    "fastapi>=0.121.3",
+    "jinja2==3.1.6",
+    "loguru==0.7.3",
+    "passlib==1.7.4",
+    "pydantic==2.12.4",
+    "pydantic-core==2.41.5",
+    "pydantic-settings==2.12.0",
+    "pymysql==1.0.2",
+    "python-dotenv==1.2.1",
+    "python-jose==3.5.0",
+    "redis==7.1.0",
+    "requests==2.32.5",
+    "simpleeval==1.0.3",
+    "sqlalchemy==1.4.15",
+    "uvicorn==0.38.0",
+]
+
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
